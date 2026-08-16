@@ -5,9 +5,9 @@ import plotly.graph_objects as go
 from streamlit_gsheets import GSheetsConnection
 
 # Configuración de página
-st.set_page_config(page_title="Dashboard de Finanzas Personales", layout="wide")
+st.set_page_config(page_title="My Budget", layout="wide")
 
-st.title("💸 Mi Dashboard Financiero")
+st.title("My Budget")
 
 # ------------------
 # CONEXIÓN A GOOGLE SHEETS
